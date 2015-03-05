@@ -1,0 +1,42 @@
+body {
+  font: 16px sans-serif;
+  margin: 0;
+}
+
+path.line {
+  fill: none;
+  stroke: #FA4D19;
+  stroke-width: 5px;
+}
+
+path.area {
+  fill: #FCA50D;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.x.axis line {
+  stroke: #FAFA19;
+  stroke-width:2px;
+}
+.x.axis .tick text{
+  padding-top: 50px;
+}
+.x.axis .minor {
+  stroke-opacity: .5;
+}
+
+.x.axis path {
+    fill: none;
+  stroke: #000;
+  stroke-width:2px;
+}
+
+.y.axis line, .y.axis path {
+  fill: none;
+  stroke: #000;
+  stroke-width:2px;
+}
+
